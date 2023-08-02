@@ -1,0 +1,29 @@
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    border-bottom: 100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    border-bottom: 100px;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+.column {
+      width: 100%;
+    }
+
+  
